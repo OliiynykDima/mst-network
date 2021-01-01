@@ -1,0 +1,301 @@
+body{
+  margin: 0;
+  background-color: rgb(240, 234, 234);
+  height: 1650px;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style-type: none;
+}
+button,
+button:active,
+button:focus {
+    outline: none;
+}
+
+#nav{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 60px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  padding: 10px;
+  background-color: white;
+}
+#logo{
+  margin-top: 10px;
+  margin-left: 120px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  color:rgb(42, 68, 219);
+}
+#navbar{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+#navbar li a{
+  font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  color: black;
+  margin-left: 55px;
+}
+#navbar li a:hover{
+  color:rgb(42, 68, 219);
+}
+#auth_btn{
+  border: 0;
+  margin-left: 9%;
+  width: 170px;
+  height: 35px;
+  margin-top: 13px;
+  border-radius: 5px;
+  font-size: 17px;
+  background-color:rgb(42, 68, 219);
+  color: white;
+}
+
+main{
+  width: 100%;
+}
+
+#slider{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  margin-top: 90px;
+  margin-left: 8%;
+  width: 84%;
+  height: 275px;
+  border-radius: 5px;
+}
+#slider-content{
+  width: 600px;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+#slider-main_text{
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#slider-second-text{
+  width: 420px;
+  margin-right: 0;
+  line-height: 20px;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: gray;
+}
+#slider img{
+  margin: 0;
+  width: 300px;
+  height: 300px;
+  margin-top: -20px;
+  margin-left: 170px;
+}
+#slider-link{
+  color: rgb(42, 68, 219);
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#recent-buys_wrap{
+  padding-top: 30px;
+}
+#recent-buys{
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+}
+#recent-buy{
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 175px;
+  padding-left: 37px;
+}
+#recent-buys_wrap-main-text{
+  margin-left: 125px;
+  padding-bottom: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#recent-buy-img_wrap{
+  border-radius: 5px;
+  width: 110px;
+  height: 100px;
+  background-color: white;
+}
+#name{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+#data{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 10px;
+  margin-top: 5px;
+  color: gray;
+}
+
+#shop{
+
+}
+.anarch ul{
+  display: none;
+}
+#shop-main-text{
+  margin-left: 125px;
+  padding-bottom: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#shop-tags{
+  display: flex;
+  flex-direction: row;
+  margin-left: 41px;
+  margin-bottom: 0px;
+}
+
+#shop-tags li{
+  margin-left: 37px;
+}
+#shop-tags li button{
+  border-radius: 5px;
+}
+.tag-active{
+  width: 170px;
+  height: 35px;
+  font-size: 17px;
+  color: white;
+  background-color: rgb(10, 43, 230);
+  border: 1px solid rgb(42, 68, 219);
+}
+.tag-inactive{
+  width: 170px;
+  height: 35px;
+  font-size: 17px;
+  background-color: transparent;
+  border: 1px solid rgb(112, 126, 207);
+  color: rgb(112, 126, 207);
+}
+
+.tag-inactive:hover{
+  border: 1px solid rgb(42, 68, 219);
+  color: rgb(42, 68, 219);
+}
+
+.tag-inactive:active{
+  color: white;
+  background-color: rgb(10, 43, 230);
+  border: 1px solid rgb(42, 68, 219);
+}
+
+#shop-items{
+  display: flex;
+  flex-direction: column;
+  margin-left: 18px;
+}
+
+#row{
+  display: flex;
+  flex-direction: row;
+}
+
+#shop-item{
+  padding: 0;
+  width: 200px;
+  height: 300px;
+  background-color: white;
+  border-radius: 5px;
+  margin-left: 53px;
+  margin-top: 30px;
+}
+
+#sale{
+  margin: 0;
+  width: 37px;
+  height: 20px;
+  background-color:rgb(224, 120, 22);
+  color: white;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 3px;
+  margin: 6px;
+  padding-top: 2px;
+  padding-left: 2px;
+}
+
+#shop-item div div li img{
+  width: 120px;
+  height: 95px;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+#shop-item div div p{
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 5px;
+  text-align: center;
+}
+#info{
+  margin-left: 15px;
+  margin-top: 5px;
+  width: 20px;
+  height: 20px;
+  background-color: gray;
+  border-radius: 50%;
+  border: 0;
+  font-size: 15px;
+  padding: 0;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#info:hover{
+  opacity: 0.7;
+}
+#price-wrap{
+  display: flex;
+  flex-direction: row;
+  margin-left: 75px;
+}
+#val{
+  font-weight: 800;
+  font-size: 13px;
+}
+#price{
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#lost-price{
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#buy{
+  width: 80px;
+  height: 35px;
+  background-color: rgb(42, 68, 219);
+  border-radius: 5px;
+  border: 0;
+  color: white;
+  margin-left: 60px;
+}
+
+footer{
+  width: 100%;
+  height: 50px;
+  background-color:rgb(42, 68, 219);
+  margin-top: 10%;
+}
